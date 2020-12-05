@@ -57,6 +57,15 @@
 
     <div class="background" style="display: none;">
       <div id="pattern"></div>
+      <audio id="audio" loop="">
+        <source src="assets/ms.mp3" type="audio/mp3" />
+        <script>
+          const audio = document.getElementById('audio');
+
+          app.audioElement = audio;
+          app.audioElement.volume = 0;
+        </script>
+      </audio>
       <video id="background" loop="">
         <source src="bg.mp4" type="video/mp4" />
         <script>
