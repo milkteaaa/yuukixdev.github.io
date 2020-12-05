@@ -38,19 +38,7 @@ const mobileAndTabletCheck = () => /Android|webOS|iPhone|iPad|iPod|BlackBerry|IE
 $(document).ready(() => {
   const links = [
     {
-      name: 'yuuki#4950',
-      link: '',
-    },
-    {
-      name: 'Final#9999',
-      link: '',
-    },
-    {
-      name: 'DWORD#5592',
-      link: '',
-    },
-    {
-      name: 'Polar#6009',
+      name: 'dd0sware.tk',
       link: '',
     },
   ];
@@ -71,7 +59,7 @@ $(document).ready(() => {
     app.shouldIgnoreVideo = true;
   }
 
-  app.titleChanger(['Rainfall - Development']);
+  app.titleChanger(['dd0sware.tk']);
   app.iconChanger(['assets/icons/icon.png']);
 });
 
@@ -163,7 +151,7 @@ $.getJSON(ipgeolocation, (data) => {
 
       clearCursor();
 
-      writeLine([`<i style='color: #F62459'>obnoxious.club $$$</i>`], 120, 500, () => {
+      writeLine([`<i style='color: #F62459'>dd0sware.tk</i>`], 120, 500, () => {
         timeouts.push(
           setTimeout(() => {
             if (app.skippedIntro) return;
