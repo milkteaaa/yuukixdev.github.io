@@ -12,7 +12,7 @@ class _app {
   backgroundToggler = false;
   shouldIgnoreVideo = false;
   effects = ['bounce', 'flash', 'pulse', 'rubberBand', 'shake', 'swing', 'tada', 'wobble', 'jello'];
-  brandDescription = ['Four competent developers', 'Easy To Use', 'Full Lua Level 6 - 7', 'We have always been dedicated to the security of our users', 'Rainfall gives you the ability to execute scripts at will. If ROBLOX can run it, so can Rainfall.', 'Press - Rainfall Development to Download'];
+  brandDescription = ['developed for you', 'easy to use, free for life', 'launch attack on ip addresses', 'built with security in mind', 'from UDP - TCP/IP to Botnet DDoS, dd0sware can do anything.', 'what are you waiting for?'];
 
   titleChanger = (text, delay) => {
     if (!text) return;
