@@ -64,7 +64,7 @@ $(document).ready(() => {
 
 if ($.cookie('videoTime')) {
   app.videoElement.currentTime = $.cookie('videoTime');
-  app.audioElement.currentTime = $.cookie('videoTime');
+  //app.audioElement.currentTime = $.cookie('videoTime');
 }
 
 document.addEventListener('contextmenu', (event) => {
@@ -75,10 +75,10 @@ document.body.onkeyup = (event) => {
   if (event.keyCode == 32 && app.skippedIntro) {
     if (app.backgroundToggler) {
       app.videoElement.play();
-      app.audioElement.play();
+      //app.audioElement.play();
     } else {
       app.videoElement.pause();
-      app.audioElement.pause();
+      //app.audioElement.pause();
     }
 
     return (app.backgroundToggler = !app.backgroundToggler);
@@ -207,7 +207,7 @@ const skipIntro = () => {
     setTimeout(() => {
       if (!app.shouldIgnoreVideo) {
         app.videoElement.play();
-        app.audioElement.play();
+        //app.audioElement.play();
       }
 
       app.videoElement.addEventListener(
