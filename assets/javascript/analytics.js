@@ -3,5 +3,5 @@
 s=b.getElementsByTagName(x)[0];u.src=i;s.parentNode.insertBefore(u,s)}
 (window,document,'ga','script','https://www.google-analytics.com/analytics.js');
 
-ga('create', 'UA-122247573-1', 'http://polar-site.000webhostapp.com');
+ga('create', 'UA-122247573-1', 'https://yuukixdev.github.io/dd0sware.tk/');
 ga('send', 'pageview');
