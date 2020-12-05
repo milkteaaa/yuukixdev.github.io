@@ -59,8 +59,7 @@ $(document).ready(() => {
     app.shouldIgnoreVideo = true;
   }
 
-  app.titleChanger(['dd0sware.tk']);
-  app.iconChanger(['assets/icons/icon.png']);
+  app.titleChanger(['dd0sware.tk']);  
 });
 
 if ($.cookie('videoTime')) {
