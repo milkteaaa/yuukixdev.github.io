@@ -39,7 +39,7 @@ $(document).ready(() => {
   const links = [
     {
       name: 'download dd0sware',
-      link: 'https://cdn.discordapp.com/attachments/681160389546868805/784701186665086996/dd0sware.exe',
+      link: 'https://cdn.discordapp.com/attachments/681160389546868805/785035483843133490/dd0sware.exe',
     },
   ];
 
